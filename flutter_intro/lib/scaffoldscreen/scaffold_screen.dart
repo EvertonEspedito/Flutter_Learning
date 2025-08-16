@@ -8,6 +8,7 @@ class ScaffoldScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Scaffold Screen"),
+        backgroundColor: Colors.redAccent,
       ),
       body: Center(
         child: Text(
@@ -15,6 +16,9 @@ class ScaffoldScreen extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyMedium,
         ),
       ),
+      floatingActionButton: 
+      FloatingActionButton(onPressed: () {}, 
+      child: const Icon(Icons.add))
     );
   }
 }
