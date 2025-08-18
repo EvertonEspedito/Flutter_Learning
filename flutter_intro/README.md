@@ -1,16 +1,31 @@
-# flutter_intro
+# To Do App
 
-A new Flutter project.
+Aplicativo em Flutter, que serve para ajudar em lista de afazeres.
 
-## Getting Started
+## 🎨 Paleta ToDo App
 
-This project is a starting point for a Flutter application.
+- Primária (para AppBar, botões principais):
+    - #4CAF50 → Verde médio (transmite produtividade e “check”).
 
-A few resources to get you started if this is your first Flutter project:
+- Secundária (destaques, ícones):
+    - #FF9800 → Laranja (energia e atenção).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Acento (para prioridade alta ou alertas):
+    - #F44336 → Vermelho (tarefas urgentes).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Background (fundo do app):
+    - #F5F5F5 → Cinza bem claro (limpo e neutro).
+
+- Cards / Containers:
+    - #FFFFFF → Branco (contraste suave sobre o fundo).
+
+- Texto principal:
+    - #212121 → Cinza quase preto (boa legibilidade).
+
+- Texto secundário:
+    - #757575 → Cinza médio (para descrições e subtarefas).
+
+- Ação secundária (botões menos importantes):
+    - #2196F3 → Azul (opção alternativa que chama atenção sem “competir” com o verde).
+
+
